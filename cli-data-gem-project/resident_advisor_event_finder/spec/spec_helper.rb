@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "resident/advisor/event/finder"
+require "resident_advisor_event_finder"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

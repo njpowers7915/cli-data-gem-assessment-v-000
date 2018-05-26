@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "resident/advisor/event/finder/version"
+require "resident_advisor_event_finder/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "resident-advisor-event-finder"
-  spec.version       = Resident::Advisor::Event::Finder::VERSION
+  spec.name          = "resident_advisor_event_finder"
+  spec.version       = ResidentAdvisorEventFinder::VERSION
   spec.authors       = ["'Nicholas Powers'"]
   spec.email         = ["'njpowers7915@gmail.com'"]
 
